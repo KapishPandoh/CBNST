@@ -43,7 +43,7 @@ int main()
 
    printf("x%d : %.3f\n",i,x);
    i++;
-  }while(abs(xn-x)>EPSILON);
+  }while(fabs(xn-x)>EPSILON);
 
   printf("\nRoot of give equation : %.3f\n\n",x);
 return 0;
