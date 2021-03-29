@@ -35,13 +35,6 @@ int main()
      res = ((x2-x1)/(function(x2)-function(x1)))*function(x1);
      x   = x1-res;
 
-     if(function(x)<0)
-        x1=x;
-
-     else if(function(x)>0)
-        x2=x;
-
-
    printf("x%d : %.3lf\n",i,x);
    i++;
   }while(i<=2 && fabs(xn-x)>EPSILON);
