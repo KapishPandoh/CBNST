@@ -9,6 +9,8 @@ COMPUTER BASED NUMERICAL AND STATISTICAL TECHNIQUES (CBNST) , Codes in C languag
 
 -> Gauss Jordan Method
 
+-> Gauss Seidel Method
+
 -> Newton Raphson Method
 
 -> Regula Falsi Method
